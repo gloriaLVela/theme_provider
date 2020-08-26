@@ -1,3 +1,15 @@
+
+# ThemeProvider
+
+Example from https://blog.bitsrc.io/4-ways-to-override-material-ui-styles-43aee2348ded
+
+ThemeProvider is another component that we can use to style components with styles other than the ones from Material UI. It lets us apply a fixed set of styles called themes so that we can apply them uniformly to multiple components.
+
+We create a theme by using the createMuiTheme function.It returns an object which we assigned to the theme object, which is set as the value of the theme prop of ThemeProvider .
+
+Once we did that, we can use the color palette names in the components nested inside ThemeProvider .
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
