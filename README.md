@@ -9,6 +9,22 @@ We create a theme by using the createMuiTheme function.It returns an object whic
 
 Once we did that, we can use the color palette names in the components nested inside ThemeProvider .
 
+We import the color objects and set them as the values of the properties of the palette property.
+Then we use the key name with the color prop for the buttons.
+Then we get 2 buttons with purple and green text respectively.
+
+## Pros
+ThemeeProvider lets us use themes that are created from Material UI. And, we can add any styles to it and use it.
+
+## Cons
+It’s not as flexible as CSS, and if we decide to use something other than Material UI, then we have to recreate all the styles from scratch.
+Also, creating themes is harder than using CSS since we have import color objects to apply colors. Creating themes also require lots of code for any nontrivial app.
+We can create objects and pass them off as a theme. However, we have to pass on a big object as a theme in that case.
+
+We can also style deep child elements with it by writing more code.
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
